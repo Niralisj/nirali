@@ -9,42 +9,48 @@ class Projects extends React.Component {
   render() {
     const spotlightProjects = {
       "DAIS": {
-    title: "dais",
-    desc: "A virtual skincare companion that analyzes your skin type and provides personalized product recommendations and skincare tips powered by AI.",
-    techStack: "PYTHON, MACHINE LEARNING",
-    link: "https://github.com/Niralisj/DAIS",
-    open: "",
-    image: "/img/dais.png"
-     },
+        title: "dais",
+        desc: "A virtual skincare companion that analyzes your skin type and provides personalized product recommendations and skincare tips powered by AI.",
+        techStack: "PYTHON, MACHINE LEARNING",
+        link: "https://github.com/Niralisj/DAIS",
+        open: "",
+        image: "/img/dais.png"
+      },
       "Kiki AI": {
-    title: "kiki ai",
-    desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
-    techStack: "TYPESCRIPT, KUBERNETES",
-    link: "https://github.com/Niralisj/Kiki-ai",
-    open: "",
-    image: "/img/kiki.png"
-         }
+        title: "kiki ai",
+        desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
+        techStack: "TYPESCRIPT, KUBERNETES",
+        link: "https://github.com/Niralisj/Kiki-ai",
+        open: "",
+        image: "/img/kiki.png"
+      }
     };
 
     const projects = {
-      "Mikrokosmos": {
-    desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",
-    techStack: "JavaScript, Three.js",
-    link: "https://github.com/Niralisj/Mikrokosmos",
-    open: ""
-        },
-       "Smart Bus Optimization": {
-    desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",
-    techStack: "Python, Data Analytics",
-    link: "https://github.com/Niralisj/smart-bus-optimization",
-    open: ""
+      "DAIS": {
+        desc: "A virtual skincare companion that analyzes your skin type and provides personalized product recommendations and skincare tips powered by AI.",
+        techStack: "Python, Machine Learning",
+        link: "https://github.com/Niralisj/DAIS",
+        open: ""
       },
-       "Smart-Bus Optimization": {
-    desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",
-    techStack: "Python, Data Analytics",
-    link: "https://github.com/Niralisj/smart-bus-optimization",
-    open: ""
-  }
+      "Kiki AI": {
+        desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
+        techStack: "TypeScript, Kubernetes",
+        link: "https://github.com/Niralisj/Kiki-ai",
+        open: ""
+      },
+      "Mikrokosmos": {
+        desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",
+        techStack: "JavaScript, Three.js",
+        link: "https://github.com/Niralisj/Mikrokosmos",
+        open: ""
+      },
+      "Smart Bus Optimization": {
+        desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",
+        techStack: "Python, Data Analytics",
+        link: "https://github.com/Niralisj/smart-bus-optimization",
+        open: ""
+      }
     };
 
     return (
