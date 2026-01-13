@@ -16,14 +16,22 @@ class Projects extends React.Component {
         open: "",
         image: "/img/dais.png"
       },
-      "Kiki AI": {
+      "Mikrokosmos": {
+        title: "mikrokosmos",
+        desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",
+        techStack: "JAVASCRIPT, THREE.JS",
+        link: "https://github.com/Niralisj/Mikrokosmos",
+        open: "",
+        image: "/img/m.png"
+
+      }, "Kiki AI": {
         title: "kiki ai",
         desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
         techStack: "TYPESCRIPT, KUBERNETES",
         link: "https://github.com/Niralisj/Kiki-ai",
         open: "",
         image: "/img/kiki.png"
-      }
+      },
     };
 
     const projects = {
@@ -31,7 +39,7 @@ class Projects extends React.Component {
         desc: "A virtual skincare companion that analyzes your skin type and provides personalized product recommendations and skincare tips powered by AI.",
         techStack: "Python, Machine Learning",
         link: "https://github.com/Niralisj/DAIS",
-        open: ""
+        open: "https://dais.vercel.app/"
       },
       "Kiki AI": {
         desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
@@ -43,7 +51,7 @@ class Projects extends React.Component {
         desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",
         techStack: "JavaScript, Three.js",
         link: "https://github.com/Niralisj/Mikrokosmos",
-        open: ""
+        open: "https://miikrokosmos.netlify.app/"
       },
       "Smart Bus Optimization": {
         desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",

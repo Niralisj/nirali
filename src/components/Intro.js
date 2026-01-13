@@ -48,7 +48,7 @@ function Intro() {
           
         </div>
         <a
-          href="mailto:niralipatel@example.com"
+          href="mailto:nir0313@gmail.com"
           className="intro-contact"
         >
           <EmailRoundedIcon />
