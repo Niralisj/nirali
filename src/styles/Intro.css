@@ -9,7 +9,7 @@
   min-height: 100vh;
 }
 
-.Typist {
+/* .Typist {
   color: var(--lightest-slate);
   text-align: center;
   font-size: 76px;
@@ -18,7 +18,22 @@
 .Typist .Cursor--blinking {
   color: var(--green-bright);
   padding-left: 4px;
+} */
+
+cursor {
+  animation: blink 1s infinite;
+  margin-left: 2px;
 }
+
+.cursor.hidden {
+  opacity: 0;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
 
 .intro-title {
   font-family: "NTR", sans-serif;

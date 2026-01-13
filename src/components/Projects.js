@@ -2,54 +2,55 @@ import React from "react";
 import "../styles/Projects.css";
 import FolderOpenRoundedIcon from "@mui/icons-material/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
-//import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
-        desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
-      },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
-      }
+      "DAIS": {
+    title: "dais",
+    desc: "A virtual skincare companion that analyzes your skin type and provides personalized product recommendations and skincare tips powered by AI.",
+    techStack: "PYTHON, MACHINE LEARNING",
+    link: "https://github.com/Niralisj/DAIS",
+    open: "",
+    image: "/img/dais.png"
+     },
+      "Kiki AI": {
+    title: "kiki ai",
+    desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
+    techStack: "TYPESCRIPT, KUBERNETES",
+    link: "https://github.com/Niralisj/Kiki-ai",
+    open: "",
+    image: "/img/kiki.png"
+         }
     };
 
     const projects = {
-      "TDSB Homework Management Interface": {
-        desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+      "Mikrokosmos": {
+    desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",
+    techStack: "JavaScript, Three.js",
+    link: "https://github.com/Niralisj/Mikrokosmos",
+    open: ""
+        },
+       "Smart Bus Optimization": {
+    desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",
+    techStack: "Python, Data Analytics",
+    link: "https://github.com/Niralisj/smart-bus-optimization",
+    open: ""
       },
-      "Adam A.I.": {
-        desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
-      }
+       "Smart-Bus Optimization": {
+    desc: "A hackathon-winning prototype for urban transit optimization using real-time scheduling, predictive analytics, and live monitoring to improve bus efficiency.",
+    techStack: "Python, Data Analytics",
+    link: "https://github.com/Niralisj/smart-bus-optimization",
+    open: ""
+  }
     };
 
     return (
       <div id="projects">
         <div className="section-header">
-          <span className="section-title">/ pet projects</span>
+          <span className="section-title">projects</span>
         </div>
 
         <Carousel>

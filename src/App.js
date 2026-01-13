@@ -3,7 +3,7 @@ import Intro from "./components/Intro";
 import About from "./components/About"
 import NavBar from "./components/Navbar"
 import Projects from "./components/Projects";
-
+import Credits from "./components/Credits";
 import './App.css';
 import "./styles/Global.css";
 import "rsuite/dist/rsuite.css";
@@ -19,9 +19,9 @@ function App() {
  
       <div id="content">
         <Intro></Intro>
-
         <About></About>
         <Projects></Projects>
+        <Credits></Credits>
       </div>
     </div>
   );

@@ -7,30 +7,32 @@ class About extends React.Component {
     const intro = (
       <p>
         Hi, I’m <b>Nirali</b> <br/>
-        I’m a <b>Master of Computer Applications (MCA)</b> student with a strong
-        interest in <b>Software Development</b>. I enjoy building web
-        applications, learning data structures & algorithms, and working on
-        real-world projects that challenge me to grow.
+        I’m a software developer who enjoys building things from scratch and
+       turning ideas into real, usable products. I’m interested in
+     full-stack and cloud technologies. I’m fascinated by
+      products that operate at scale,where small engineering decisions can
+     impact millions of users.
       </p>
     );
 
     const outro = (
       <p>
-        Outside of coding, I enjoy self-improvement content, fitness, creating
-        aesthetic videos, and exploring new technologies. My long-term goal is
-        to work as a <b>Software Engineer</b> at a top tech company and eventually
-        move to <b>London</b>.
+          Outside of work, I enjoy science-related topics,
+         quiet creative work and creating youtube videos.
+
+
       </p>
     );
 
     const techStack = [
+
+      "Python",
       "JavaScript (ES6+)",
+       "HTML & CSS",
       "TypeScript",
       "React.js",
-      "Python",
       "Java",
-      "C / C++",
-      "HTML & CSS"
+      "Docker(project experience)"
     ];
 
     return (
