@@ -45,7 +45,7 @@ class Projects extends React.Component {
         desc: "An AI-powered Chaos Engineering trainer for Kubernetes that teaches resilience by intelligently breaking things and helping teams learn from failures.",
         techStack: "TypeScript, Kubernetes",
         link: "https://github.com/Niralisj/Kiki-ai",
-        open: ""
+        open: "https://kikiai-kohl.vercel.app/"
       },
       "Mikrokosmos": {
         desc: "A stunning 3D solar system visualization built with Three.js, featuring realistic planetary orbits and interactive navigation.",

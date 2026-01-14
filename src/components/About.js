@@ -11,15 +11,15 @@ class About extends React.Component {
        turning ideas into real, usable products. I’m interested in
      full-stack and cloud technologies. I’m fascinated by
       products that operate at scale,where small engineering decisions can
-     impact millions of users.
-      </p>
+     impact millions of users. </p>
     );
 
     const outro = (
-      <p>
-          Outside of work, I enjoy science-related topics,
+      <p>   
+        Currently, I am undertaking a <b>Master’s in Computer Applications.</b>
+       <p> Outside of work, I enjoy science-related topics,
          quiet creative work and creating youtube videos.
-
+      </p>
 
       </p>
     );
