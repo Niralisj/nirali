@@ -6,11 +6,11 @@ class About extends React.Component {
   render() {
     const intro = (
       <p>
-        Hi, I’m <b>Nirali</b>
+        Hi, I'm <b>Nirali</b>
         <br />
-        I’m a software developer who enjoys building things from scratch and
-        turning ideas into real, usable products. I’m interested in full-stack
-        and cloud technologies. I’m fascinated by products that operate at
+        I'm a software developer who enjoys building things from scratch and
+        turning ideas into real, usable products. I'm interested in full-stack
+        and cloud technologies. I'm fascinated by products that operate at
         scale, where small engineering decisions can impact millions of users.
       </p>
     );
@@ -36,7 +36,7 @@ class About extends React.Component {
             <div className="about-description">
               {intro}
 
-              <p>Here are some technologies I’ve been working with:</p>
+              <p>Here are some technologies I've been working with:</p>
 
               <ul className="tech-stack">
                 {techStack.map((tech, i) => (
