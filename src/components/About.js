@@ -14,15 +14,6 @@ class About extends React.Component {
      impact millions of users. </p>
     );
 
-    const outro = (
-      <p>   
-        Currently, I am undertaking a <b>Master’s in Computer Applications.</b>
-       <p> Outside of work, I enjoy science-related topics,
-         quiet creative work and creating youtube videos.
-      </p>
-
-      </p>
-    );
 
     const techStack = [
 
@@ -70,3 +61,4 @@ class About extends React.Component {
 }
 
 export default About;
+
