@@ -58,6 +58,18 @@ class Projects extends React.Component {
         techStack: "Python, Data Analytics",
         link: "https://github.com/Niralisj/smart-bus-optimization",
         open: ""
+      },
+      "The Royal Vault": {
+        desc: "A browser-based virtual museum celebrating the royal jewelry traditions of India, with state-wise galleries and detailed histories for each piece.",
+        techStack: "React, Vite, JavaScript",
+        link: "https://github.com/Vidhipanchaal/museum",
+        open: ""
+      },
+      "Placement Mode": {
+        desc: "A weekly habit tracker for a DSA + college + gym routine, with a critical-task streak counter and a Netflix-inspired UI.",
+        techStack: "JavaScript, React, Vite",
+        link: "https://github.com/Niralisj/weekly-habit-tracker",
+        open: "https://weekly-habit-tracker-lac.vercel.app/"
       }
     };
 
