@@ -21,7 +21,6 @@ class About extends React.Component {
       "HTML & CSS",
       "TypeScript",
       "React.js",
-      "Java",
       "Docker (project experience)",
     ];
 
